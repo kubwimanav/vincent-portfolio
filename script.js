@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const inputFields = document.querySelectorAll('.input, .t');
     const errorText = document.getElementById('errorText');
     const successText = 'Message sent successfully!';
-    const errorMessageDuration = 5000; // Duration in milliseconds (5 seconds)
+    const errorMessageDuration = 10000; // Duration in milliseconds 10 seconds)
   
     inputFields.forEach(input => {
       input.addEventListener('input', validateInputs);
@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function () {
           errorText.textContent = '';
         }, errorMessageDuration);
       } else {
-        errorText.textContent = 'hhhhhh';
+        errorText.textContent = '';
         showSuccessMessage();
         setTimeout(() => {
           clearForm();
