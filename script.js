@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function () {
           errorText.textContent = '';
         }, errorMessageDuration);
       } else {
-        errorText.textContent = '';
+        errorText.textContent = 'hhhhhh';
         showSuccessMessage();
         setTimeout(() => {
           clearForm();
