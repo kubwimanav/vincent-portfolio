@@ -815,16 +815,17 @@ button.contact-btn{
 	justify-content: flex-start;
 	align-items: center;
 	flex-wrap: wrap;
-	padding: 30px 0px 0px;
-}
+	padding: 20px 0px 0px;
+} 
 .contactSocialMedia a{
-	width: 25px;
-	height: 25px;
+	width: 30px;
+	height: 30px;
 	text-decoration: none;
 	text-align: center;
 	margin-left: 15px;
-	/* border: 1px solid transparent;
-	border-radius: 5px; */
+	 border: 1px solid transparent;
+	border-radius: 5px;
+	align-items: center; 
 	background-color: var(--primary-clr);
 	transition: 0.4s;
 }
@@ -832,7 +833,7 @@ button.contact-btn{
 .contactSocialMedia a i{
 	color: var(--bg-clr-one);
 	font-size: 18px;
-	line-height: 35px;
+	line-height: 30px;
 	transition: 0.4s;
 }
  .contactSocialMedia a:hover{
@@ -900,6 +901,11 @@ button.contact-btn{
 	display: flex;
 	justify-content: space-between;
 	text-align-last: center;
+	
+
+}
+.vinct p{
+margin-top: 10px;
 
 }
 .footer-contents h3,ul{
